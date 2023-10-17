@@ -1,0 +1,126 @@
+.productWrapper {
+    width: 100%
+}
+
+.productTop {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.productHeading {
+    width: 70%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.productFilter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchbar {
+    border: blue;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+}
+
+
+.searchIcon {
+    font-size: 24px;
+    margin: 0 5px;
+    color: grey;
+}
+
+.searchImgContainer {
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.searchInput {
+    font-size: 12px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.dropdownList {
+    margin: 0;
+    padding: 0;
+}
+
+.selectList {
+    padding-right: 10px;
+    border: none;
+    font-size: 12px;
+    color: grey;
+}
+
+.productNameContainer {
+    display: flex;
+    align-items: center;
+}
+
+.ProductImgContainer {
+    margin-right: 10px;
+}
+
+.productImg {
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+.nameContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.productName {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.productDesc {
+    font-size: 12px;
+    color: grey;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+th {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+    border-bottom: 1px solid #ddd;
+}
+
+.th1 {
+    width: 70%;
+    padding-right: 20px;
+}
+
+.th3 {
+    padding: 0 20px;
+    text-align: center;
+}
+
+table td:nth-child(3) {
+    font-weight: 600;
+}

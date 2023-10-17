@@ -1,0 +1,127 @@
+.sidebar {
+    flex: 2;
+    height: 100vh;
+    position: sticky;
+    left: 0;
+    top: 0;
+    background-color: blue;
+}
+
+
+.sidebarWrapper {
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebarHeading {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.headingLogo {
+    font-size: 28px;
+    margin-right: 5px;
+}
+
+.headingName {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sidebarListContainer {
+    width: 100%;
+    margin: 30px 0;
+}
+
+
+.sidebarList {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.sidebarListItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.dropdown {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.dropButton {
+    width: 100%;
+    display: flex !important;
+    background-color: blue !important;
+    color: whitesmoke !important;
+    border: none !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropButton.active,
+.dropButton:focus {
+    background-color: blueviolet !important;
+    color: white !important;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+
+.itemName {
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+}
+
+.listIcon {
+    margin-right: 5px;
+}
+
+.sidebarBottom {
+    bottom: 0;
+}
+
+.profileImg {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+
+}
+
+.profileName {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.profilePosition {
+    text-align: justify;
+    font-size: 14px;
+    color: antiquewhite;
+}
